@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #e0fffd;
+}
+.slider-container {
+    width: 600px;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.buttons {
+    margin-top: 10px;
+}
+button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background: #01615c;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background: #003330;
+}
